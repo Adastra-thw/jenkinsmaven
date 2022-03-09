@@ -11,7 +11,7 @@ pipeline {
         failure { 
             echo 'Esta ejecución ha fallado'
         }
-	sucess {
+	success {
 	    echo 'La ejecución ha funcionado correctamente'	
 	}
         always {
